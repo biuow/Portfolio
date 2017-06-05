@@ -1,0 +1,20 @@
+h1 {
+  text-align: center;
+  color: white;
+}
+
+.field {
+  background-color: black;
+  text-align: center;
+  color: #ffffff;
+  width: 100px;
+  height: 100px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.game {
+  width: 310px;
+  height: 410px;
+  margin: 0 auto;
+}

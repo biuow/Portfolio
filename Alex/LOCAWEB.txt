@@ -1,0 +1,5 @@
+WEBFTP: webftp.locaweb.com.br
+Endereço FTP: ftp.alunosfaculdade.hospedagemdesites.ws
+Usuario FTP: alunosfaculdade
+Senha FTP: Alunos@!125
+Acessar o site: http://alunosfaculdade.tempsite.ws

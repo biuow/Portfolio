@@ -1,0 +1,121 @@
+body {
+	background-image: url('../image/bgdbz.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+section{
+	width: 900px;
+	height: 600px;
+	margin: 0 auto;
+}
+
+h1.logo {
+	margin-left: 215px;
+	padding-top: 50px;
+	text-align: center;
+	max-width: 900px;
+	max-height: 200px;
+	min-height: 100px;
+	width: auto;
+	height: auto;
+	background-color: transparent;
+	background-image: url('../image/dbz.png');
+	background-repeat: no-repeat;
+}
+
+.artigo{
+	width: 700px;
+	background-color: black;
+	float: left;
+}
+
+article{
+	width: 600px;
+	height:500px;
+	float: left;
+	color: white;
+	font-size: 22px;
+	text-align: justify-all;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+footer{
+	width: 900px;
+	height:50px;
+	background-color: #628bc6;
+	color: white;
+	text-align: center;
+	clear: both;
+}
+
+/*Menu Vertical*/
+
+.menuVertical {
+	width: 200px;
+	height:520px;
+	background-color:#e60000;
+	float: left;
+	margin: 0 auto;
+	letter-spacing: 2px;
+}
+
+.menuVertical ul li{
+	list-style-position: inside;
+	color: #ffffff;
+	text-decoration: none;
+}
+.menuVertical a:link,a:hover,a:visited{
+	color: #ffffff;
+	text-decoration: none;
+}
+.menuVertical li{
+	height: 35px;
+	padding-top:10px;
+	padding-left:20px;
+}
+.lIVertical:hover{
+	background-color: #68071d;
+	cursor:pointer;
+}
+.menuVertical ul{
+	margin-left:-40px;
+}
+
+/*TOP-MENU*/
+header.menuTop {
+	width: 900px;
+	height: 36px;
+	margin: 0 auto;
+	margin-top: -20px;
+	background-color: #ff6600;
+}
+
+.menuTop ul li {
+	display: block;
+	float: left;
+	margin-top: 6px;
+	min-width: 120px;
+	height: 25px;
+	text-align: center;
+	list-style-type: none;
+	color: #ffffff;
+	text-decoration: none; /*Tira sublinhado*/
+	text-align: center;
+	cursor: pointer;
+}
+
+.menuTop a:link, a:hover, a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.liMenuH {
+	margin-top: 7px;
+	margin-left: 0px;
+}
+
+.liMenuH:hover {
+	color: gray;
+}
+/*END-TOP-MENU*/

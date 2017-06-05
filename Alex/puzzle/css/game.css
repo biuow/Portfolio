@@ -2,12 +2,11 @@ h1{
 margin-left:40px;
 }
 
-// .game{
-//   background-color:#0066cc; 
-//   width:300px; 
-//   height:300px; 
-//   text-align:center;
-// }
+.puzzle-game{
+	width:50%; 
+    margin-left:25%; 
+    margin-right:25%;
+}
 
 button{
   width:90px; 

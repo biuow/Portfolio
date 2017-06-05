@@ -18,7 +18,7 @@ function round(sqr) {
 		}
 
 		shift = shift*(-1);
-		validate();
+		setTimeout(validate(), 500);
 	}
 }
 
@@ -53,8 +53,10 @@ function validate() {
 
 	(sqr1 == turnValue && sqr5 == turnValue && sqr9 == turnValue) ||
 	(sqr7 == turnValue && sqr5 == turnValue && sqr3 == turnValue)) {
-		alert("Jogador " + turnValue + " ganhou!");
-		reset();
+		setTimeout(function(){
+			alert("Jogador " + turnValue + " ganhou!");
+			reset();
+		}, 500);
 	} else {
 		if(sqr1 != E_val) {
 			cont++;
