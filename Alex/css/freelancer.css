@@ -159,7 +159,8 @@ header.masthead {
     padding-bottom: 50px; }
   header.masthead img {
     display: block;
-    margin: 0 auto 20px; }
+    margin: 0 auto 20px;
+    border-radius: 100%; }
   header.masthead .intro-text .name {
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
     font-size: 2em;
@@ -187,7 +188,8 @@ header.masthead {
     display: block;
     max-width: 400px;
     margin: 0 auto;
-    cursor: pointer; }
+    cursor: pointer;
+    text-align: center; }
     #portfolio .portfolio-item .portfolio-link .caption {
       position: absolute;
       width: 100%;
@@ -233,9 +235,9 @@ header.masthead {
   -webkit-box-shadow: none;
   box-shadow: none; }
   .portfolio-modal .modal-dialog .modal-content {
-    padding: 100px 0;
     border: 0;
-    border-radius: 0; }
+    border-radius: 0;
+    height: 100vh; }
     .portfolio-modal .modal-dialog .modal-content h2 {
       font-size: 3em;
       margin: 0; }
@@ -251,7 +253,8 @@ header.masthead {
   width: 75px;
   height: 75px;
   cursor: pointer;
-  background-color: transparent; }
+  background-color: transparent;
+  z-index: 999999; }
   .portfolio-modal .close-modal:hover {
     opacity: .3; }
   .portfolio-modal .close-modal .lr {
@@ -390,10 +393,10 @@ footer {
     background-color: white; }
 
 
-.img-fluid{
-    width:  50px;
-    height: 50px;
-}
+// .img-fluid{
+//     width:  50px;
+//     height: 50px;
+// }
 
 .btn-success {
   font-weight: 700;
@@ -447,3 +450,7 @@ footer {
 .btn:active,
 .btn.active {
   outline: none; }
+.game .field {
+    width: 150px;
+    height: 150px;
+}
